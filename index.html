@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web ban hang</title>
+    <link rel="stylesheet" href="./res/css/home-base.css ">
+    <link rel="stylesheet" href="./res/css/home-main.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./res/font/fontawesome-free-5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Header-------------------------------------- -->
+        <!-- <div id="add-header" w3-include-html="header.html"></div> -->
+        <header class="header">
+            <div class="grid header__grid">
+        
+                <!-- ****************************************** -->
+                <nav class="header__navbar" w3-include-html="header-navbar.html"></nav>
+                <!-- Header with logo -->
+                <div class="header-with-logo">
+                    <i class="fas fa-bars" id="bars" style="color: black;"></i>
+                    <div class="header__logo" w3-include-html="logo.html"></div>
+                </div>
+
+                <!-- header with logo -->
+                <!-- Header menu -->
+                <div class="header__menu" id="navbar" w3-include-html="menu.html"></div>
+            </div>
+        </header>
+        
+<!-- ---------------------------------------------------------- -->
+        <div class="app__container">
+            <div class="grid">
+
+                <!-- slide ảnh, about company  -->
+                <div class="container__slide">
+                    <!-- About company -->
+                    <div class="container__about">
+                        <h3 style="text-align: center; font-size: 2.5rem; font-weight: 900; color: #0a3b6c;">Giới thiệu
+                            về công ty</h3>
+                        <p class="container__about-content">Công Ty TNHH Thương Mại Dịch Vụ Đôi Bàn Tay là một trong
+                            những doanh nghiệp chuyên nghiệp,
+                            kinh nghiệm lâu năm trong lĩnh vực gỗ nhập khẩu từ Mỹ và Châu Âu.
+                            Phân phối rộng rãi trên khắp các tỉnh trong cả nước. </p>
+                        <p class="container__about-content">Đôi Bàn Tay – Nhà Cung Cấp Gỗ Nguyên Liệu Uy Tín</p>
+                        <p class="container__about-content">Với khát vọng, đam mê và nỗ lực không ngừng Đôi Bàn Tay luôn
+                            hướng tới sự đổi mới,
+                            xây dựng sự chuyên nghiệp trong lĩnh vực kinh doanh gỗ nguyên liệu làm hài lòng và
+                            giữ vững niềm tin của khách hàng. Không ngừng sáng tạo, phấn đấu tạo ra những sản phẩm và
+                            dịch vụ chất lượng tốt nhất. Đôi Bàn Tay hoạt động dựa trên phương châm: “TÍN-TÂM”
+                            Tín: Coi trọng niềm tin, lấy chất lượng và sự phục vụ chuyên nghiệp làm uy tín hàng đầu.</p>
+                        <p class="container__about-content">Tâm: Coi trọng khách hàng, luôn luôn thấu hiểu, đặt lợi ích
+                            và mong muốn của khách hàng lên
+                            hàng đầu. Mang đến sự hài lòng cho khách hàng trên mọi phương diện. Những sản phẩm chất
+                            lượng cùng với dịch vụ hoàn hảo, tận tình, tận tâm.</p>
+                    </div>
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <!-- <div class="numbertext">1 / 3</div> -->
+                            <img src="https://giathicongnoithat.com/upload/posts/high/thi-cong-noi-that-go-soi-dep-do-ben-su-dung-lau-nam.jpg"
+                                style="width:100%; height: 100%;">
+                            <!-- <div class="text">Caption Text</div> -->
+                        </div>
+
+                        <div class="mySlides fade">
+                            <!-- <div class="numbertext">2 / 3</div> -->
+                            <img src="https://noithatfuhome.com/storage/2019/05/View_Interactive-LightMix_View070000-1067x800.jpg"
+                                style="width:100%;height: 100%;">
+                            <!-- <div class="text">Caption Two</div> -->
+                        </div>
+
+                        <div class="mySlides fade">
+                            <!-- <div class="numbertext">3 / 3</div> -->
+                            <img src="https://kienviet.net/wp-content/uploads/2019/09/cropped-noi-that-dong-gia-1-1440x809.jpg"
+                                style="width:100%;height: 100%;">
+                            <!-- <div class="text">Caption Three</div> -->
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                    </div>
+
+                </div>
+                <!-- Sản phẩm tiêu biểu -->
+                <div class="top-product" w3-include-html="top-product.html"></div>
+            </div>
+
+        </div>
+
+        <div class="footer" style="margin-top: 100px;" w3-include-html="footer.html"></div>
+    </div>
+
+
+    <script type="text/javascript" src="res/js/img-scroll.js"></script>
+    <script type="text/javascript" src="res/js/include-html.js"></script>
+    <script type="text/javascript" src="res/js/fix-menu.js"></script>
+    <!-- <script type="text/javascript" src="res/js/img-slide.js"></script> -->
+
+
+
+</body>
+
+</html>

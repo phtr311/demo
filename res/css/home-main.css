@@ -1,0 +1,504 @@
+.header{
+    height: var(--header-height);
+    background-color: #F5F5F5;
+}
+
+/* .header__grid{
+    position: relative;
+} */
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-image: linear-gradient(180deg,#004370,#4267b2); */
+    background-color: #24375d;
+    padding-top: 10px;
+    /* height: 42px; */
+    height: var(--navbar-height);
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.header__navbar-list{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 6px;
+    /* padding-bottom: 2px; */
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.header__navbar-item{
+    margin: 0 8px;
+}
+
+
+.header__navbar-item, .header__navbar-item-link{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.header__navbar-item:hover, 
+.header__navbar-item-link:hover{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.header__navbar-icon-link{
+    color: var(--whhite-color);
+    text-decoration: none;
+}
+
+.header__company{
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.header__phone-logo{
+    padding-right: 8px;
+}
+
+
+/* Header with search */
+
+.header-with-logo{
+    height: var(--header-with-logo-height);
+    display: flex;
+    align-items: center;
+    background-color: var(--white-color);
+}
+
+.header__logo{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.header__logo-icon{
+    width: 70%;
+    height: var( --header-with-logo-height);
+}
+
+/* Header menu */
+
+.header__menu{
+    height: var(--menu-height);
+    background-color: #24375d;
+    z-index: 1000;
+}
+
+.header__menu-list{
+    margin: 0;
+    text-align: center;
+    /* display: none; */
+}
+
+.menu__list,
+.menu__link{
+    text-decoration: none;
+    list-style: none;
+    color: var(--white-color);
+    display: inline-block;
+    font-size: 2rem;
+    margin: 7px;
+    margin-right: 28px;
+    font-weight: 590;
+    opacity: 0.98;
+}
+
+/* App container */
+.app{
+    background-color: #F5F5F5;
+}
+.app__container{
+    background-color: #F5F5F5;
+}
+
+/* ------------------slide------------------------- */
+
+/* Slideshow container */
+.slideshow-container {
+    /* max-width: 1000px; */
+    width: 50%;
+    height: 100%;
+    /* position: relative; */
+    margin: 20px auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  
+
+  /* Next & previous buttons */
+  /* .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  } */
+  
+  /* Position the "next button" to the right */
+  /* .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+   */
+  /* On hover, add a black background color with a little bit see-through */
+  /* .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+   */
+  /* Caption text */
+  /* .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* Number text (1/3 etc) */
+  /* .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  } */
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+/* ------------------slide------------------------- */
+
+
+/* --------------------Container About-------------------------- */
+.container__slide{
+    display: flex;
+    height: 412px;
+}
+
+.container__about{
+    width: 50%;
+    height: 100%;
+    background-color: #e2e8f0;
+    margin: 20px auto;
+    margin-right: 10px;
+}
+
+/* --------------------Container About-------------------------- */
+
+.container__about-content{
+    font-size: 1.6rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #1f4c79;
+    font-weight: 500;
+}
+
+
+/* ---------------------------Top product----------------------- */
+
+.top-product{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-product-header{
+    display: inline-block;
+    color: #0a3b6c;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #1f4c79;
+    margin-bottom: 50px;
+}
+
+.product-top__frame{
+    width: 100%;
+    height: 250px;
+}
+
+.product-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product{
+    height: 100%;
+    width: 18%;
+    background-color: #F5F5F5;
+    
+}
+.product-link,.product-img{
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.product__img{
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 194px; */
+}
+
+.product__name,
+.product__link{
+    font-size: 1.8rem;
+    opacity: 0.95;
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0;
+    margin-top: 10px;
+}
+
+.viewmore, .viewmore__link{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color    );
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.viewmore__link{
+    background-color: #1f4c79;
+    padding: 8px;
+}
+
+.viewmore__link:hover{
+    background-color: #0a3b6c;
+}
+
+/* ---------------------------End Top product----------------------- */
+
+
+/* Footer */
+
+.footer{
+    height: 300px;
+    border-top: 2px solid #fe6433;
+    padding-top: 3px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    background-image: linear-gradient(90deg,rgba(0,67,112,0.6),rgba(37,118,253,0.6)) url(/res/img/bg-end.jpg);
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin-top: 300px;
+    /* z-index: 1000; */
+}
+
+.footer__about{
+    display: flex;
+    height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.company, .support,.location{
+    flex: 1;
+    height: 250px;
+}
+
+.company h3,
+.support h3{
+    font-size: 1.8rem;
+    margin-left: 40px;
+}
+
+.company__list,
+.support__list{
+    font-size: 1.6rem;
+    margin-left: 17px;
+    padding-bottom: 20px;
+}
+
+/* fix when scroll */
+
+/* #navbar{
+    overflow: hidden;
+    
+}  */
+
+
+/* ---------------------------Mobile - Tablet ------------------------- */
+
+#bars{
+    font-size: 2.5rem;
+    color: white;
+    margin-left: 0.5em;
+    display: none;
+}
+
+
+/*------------------ Mobile < 740px ---------------------- */
+@media only screen and (max-width: 739px){
+    /* ------------------Chung------------------------ */
+    .menu__list{
+        display: none;
+    }
+    .header__navbar-list{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__company{
+        /* opacity: 1; */
+        font-size: 2em;
+    }
+    .header__contact{
+        display: none;
+    }
+    .header__menu{
+        position: relative;
+    }
+    .header__menu-list{
+        text-align: unset;
+    }
+    .header-with-logo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .header__logo{
+        width: 30%;
+        margin-left: 10em;
+    }
+    /* ----------------------Rieng--------------------------- */
+    /* .header__navbar{
+        height: 122px;
+    } */
+    .header__menu{
+        display: none;
+    }
+    .header__company{
+        font-size: 1em;
+        width: 100%;
+    }
+    .header__navbar-list{
+        margin-left: 0;
+    }
+    .header__logo{
+        margin-left: 0;
+        flex: 1;
+        /* height: 10px; */
+        display: flex;
+        justify-content: space-around;
+    }
+    .header-with-logo{
+        height: 9em;
+    }
+    .header__logo-icon{
+        height: 100%;
+        width: 30%;
+        margin-right: 40px;
+    }
+    .header{
+        height: 14em;
+    }
+
+    .container__slide{
+        flex-direction: column;
+        height: unset;
+    }
+    .container__about{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .slideshow-container{
+        width: 100%;
+    }
+
+    .top-product{
+        margin-top: 30px;
+    }
+    .product-top__frame{
+        height: unset;
+    }
+    .product-list{
+        /* justify-content: unset;
+        flex-direction: column; */
+        display: block;
+    }
+    .product{
+        float: left;
+        width: 40%;
+        margin: 3.5% 5%;
+    }
+
+    .footer{
+        margin-top: 0;
+        height: unset;
+    }
+    .footer__about{
+        /* display: block; */
+        flex-direction: column-reverse;
+        height: unset;
+    }
+    .company{
+        height: unset;
+    }
+    .bars{
+        display: block;
+    }
+}
+
+/* -----------------Tablet-------------------------- */
