@@ -496,7 +496,7 @@
     .company{
         height: unset;
     }
-    .bars{
+    #bars{
         display: block;
     }
 }
