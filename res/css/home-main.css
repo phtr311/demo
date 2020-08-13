@@ -382,11 +382,14 @@
 
 /* ---------------------------Mobile - Tablet ------------------------- */
 
-#bars{
-    font-size: 2.5rem;
-    color: white;
-    margin-left: 0.5em;
+.bars{
     display: none;
+}
+
+.menu__bars{
+    font-size: 2.5rem;
+    color: black;
+    margin-left: 0.5em;
 }
 
 
@@ -496,7 +499,7 @@
     .company{
         height: unset;
     }
-    #bars{
+    .bars{
         display: block;
     }
 }
