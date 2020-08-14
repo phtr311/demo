@@ -111,6 +111,12 @@
 
 
   /* ---------------------INTRO --------------------------------------------------*/
+  .img-detail{
+    width: 100%;
+  }
+  .product__img{
+    width: 40%;
+  }
  .product__overview{
     display: flex;
   } 
@@ -120,4 +126,32 @@
       height: 35vh;
       background-color: #e2e8f0;
       color: #1f4c79;
+  }
+
+
+  /* -------------Mobile--------------- */
+  @media only screen and (max-width: 739px){
+    .top-product-header{
+      margin-top: 0;
+    }
+    .product__overview{
+      display: block;
+      height: unset;
+    }
+    .product__img{
+      width: 100%;
+    }
+    .product__intro{
+      margin: 5px 5px;
+      width: 100%;
+      height: unset;
+      margin-top: 80px;
+    }
+    .product-intro{
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .img-detail-2{
+      width: 100%;
+    }
   }

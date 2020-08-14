@@ -82,7 +82,7 @@
 }
 
 .header__logo-icon{
-    width: 70%;
+    width: 68%;
     height: var( --header-with-logo-height);
 }
 
@@ -415,6 +415,7 @@
     opacity: 0;
     transition: transform linear 0.2s, opacity linear 0.2s;
     background-color: #f3f3f4;
+    z-index: 1000;
 }
 .bars-input{
     display: none;
@@ -495,9 +496,13 @@
         margin-left: 10em;
     }
     /* ----------------------Rieng--------------------------- */
-    /* .header__navbar{
-        height: 122px;
-    } */
+    .header__navbar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 900;
+    }
     .header__menu{
         display: none;
     }
@@ -517,11 +522,14 @@
     }
     .header-with-logo{
         height: 9em;
+        margin-top: 45px;
     }
     .header__logo-icon{
         height: 100%;
         width: 30%;
         margin-right: 40px;
+        text-decoration: none;
+        margin-top: 20px;
     }
     .header{
         height: 14em;
