@@ -25,7 +25,10 @@
                 <!-- Header with logo -->
                 <div class="header-with-logo">
                     <div class="bars">
-                        <i class="fas fa-bars menu__bars"></i>
+                        <label for = "bars-input" class="fas fa-bars menu__bars"></label>
+                        <input type="checkbox" class="bars-input" id="bars-input">
+                        <label for = "bars-input" class="menu__overlay"></label>
+                        <div class="bars-category" w3-include-html="bars-menu.html"></div>
                     </div>
                     <div class="header__logo" w3-include-html="logo.html"></div>
                 </div>
