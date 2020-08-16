@@ -381,7 +381,9 @@
 
 
 /* ---------------------------Mobile - Tablet ------------------------- */
-
+.viewmore-top, .viewmore__link-top{
+    display: none;
+}
 .bars{
     display: none;
 }
@@ -466,6 +468,9 @@
 /*------------------ Mobile < 740px ---------------------- */
 @media only screen and (max-width: 739px){
     /* ------------------Chung------------------------ */
+    :root{
+        --navbar-height: 65px;
+    }
     .menu__list{
         display: none;
     }
@@ -473,6 +478,7 @@
         width: 100%;
         display: flex;
         justify-content: space-around;
+        margin: 0;
     }
     .header__company{
         /* opacity: 1; */
@@ -502,13 +508,15 @@
         right: 0;
         left: 0;
         z-index: 900;
+        padding: 0;
     }
     .header__menu{
         display: none;
     }
     .header__company{
-        font-size: 1em;
+        font-size: 1.3em;
         width: 100%;
+        /* text-align: center; */
     }
     .header__navbar-list{
         margin-left: 0;
@@ -522,14 +530,13 @@
     }
     .header-with-logo{
         height: 9em;
-        margin-top: 45px;
+        margin-top: var(--navbar-height);
     }
     .header__logo-icon{
         height: 100%;
         width: 30%;
-        margin-right: 40px;
         text-decoration: none;
-        margin-top: 20px;
+        margin-top: 10px;
     }
     .header{
         height: 14em;
@@ -579,6 +586,25 @@
     }
     .bars{
         display: block;
+    }
+    .header__company{
+        margin-top: 7px;
+    }
+    .menu__bars{
+        margin-top: 18px;
+        color: white;
+    }
+    .viewmore-top, .viewmore__link-top {
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        color: var(--white-color );
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-bottom: 5px;
+        /* margin-bottom: 50px; */
+        margin-top: 11px;
+        margin-left: 8.6vw;
     }
 }
 

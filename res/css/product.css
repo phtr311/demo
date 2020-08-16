@@ -124,7 +124,16 @@
 
 
 /*  --------------------Mobile--------------------- */
+.danhmuc{
+    display: none;
+}
+.viewmore__link-bottom{
+    display: none;
+}
 @media only screen and (max-width: 739px){
+    .danhmuc{
+        display: block;
+    }
     .grid-2{
         display: none;
     }
@@ -154,5 +163,28 @@
     }
     .footer{
         margin-top: 80px;
+    }
+    .product__detail{
+        position: relative;
+    }
+    .viewmore-bottom, .viewmore__link-bottom {
+        width: 80%;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none;
+        color: var(--white-color );
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-bottom: 5px;
+        margin-top: 11px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .header{
+        height: 100px;
+    }
+    .header-with-logo{
+        display: none;
     }
 }
